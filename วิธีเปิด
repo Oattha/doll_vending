@@ -1,0 +1,20 @@
+เข้าไฟล์โค๊ด
+cd python-app
+
+รัน
+python doll_vending.py
+
+แก้โค๊ดตรง 
+doll_vending.py
+
+เพิ่มตุ๊กตาตรงโค๊ดส่ววน PRODUCTS ด้านล่างนี้
+PRODUCTS = [
+    {"id": 1, "name": "🐻 ตุ๊กตาหมี", "price": 149, "img": os.path.join(BASE_DIR, "assets", "bear5.png"), "stock": 5},
+    {"id": 2, "name": "💙 โดเรมอน", "price": 429, "img": os.path.join(BASE_DIR, "assets", "doraemon.png"), "stock": 3},
+    {"id": 3, "name": "🎀 คิตตี้", "price": 399, "img": os.path.join(BASE_DIR, "assets", "kitty.png"), "stock": 4},
+    {"id": 4, "name": "🐼 แพนด้า", "price": 329, "img": os.path.join(BASE_DIR, "assets", "panda.png"), "stock": 2},
+    {"id": 5, "name": "🍯 พูห์", "price": 379, "img": os.path.join(BASE_DIR, "assets", "pooh.png"), "stock": 3},
+]
+
+เพิ่มรูปใน 
+C:\งานฟิล์ม\python-app\assets  ด้วย
