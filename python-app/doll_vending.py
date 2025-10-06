@@ -8,8 +8,19 @@ ITEMS_PER_PAGE = 6
 COLUMNS = 3
 
 PRODUCTS = [
+    {"id": 12,"name": "🐣 เป็ดอุอิอา",     "price": 349, "img": os.path.join(BASE_DIR, "assets", "S__9863185.jpg"),      "stock": 2},
+    {"id": 11, "name": "🐻 หมีบราวนี่",   "price": 149, "img": os.path.join(BASE_DIR, "assets", "bear.png"),     "stock": 1},
+    {"id": 15, "name": "หมาชิบะ",    "price": 429, "img": os.path.join(BASE_DIR, "assets", "S1.jpg"),  "stock": 3},
+    {"id": 15, "name": "แมวขาว",     "price": 399, "img": os.path.join(BASE_DIR, "assets", "S2.jpg"),     "stock": 4},
+    {"id": 15, "name": "หมาสามสี",     "price": 399, "img": os.path.join(BASE_DIR, "assets", "S6.jpg"),     "stock": 4},
+    {"id": 17, "name": "ไทเก้อ",     "price": 329, "img": os.path.join(BASE_DIR, "assets", "S3.jpg"),     "stock": 2},
+    {"id": 18, "name": "ไส้แมว",       "price": 379, "img": os.path.join(BASE_DIR, "assets", "S8.jpg"),      "stock": 3},
+    {"id": 19, "name": "แมวดำ",     "price": 459, "img": os.path.join(BASE_DIR, "assets", "S4.jpg"),    "stock": 4},
+    {"id": 20, "name": "แมวอ้วน",      "price": 499, "img": os.path.join(BASE_DIR, "assets", "S7.jpg"),   "stock": 5},
+    {"id": 21, "name": "โทโท่โร่",     "price": 199, "img": os.path.join(BASE_DIR, "assets", "S5.jpg"),   "stock": 6},
+
+
     {"id": 1, "name": "🐻 ตุ๊กตาหมี",   "price": 149, "img": os.path.join(BASE_DIR, "assets", "bear5.png"),     "stock": 5},
-    {"id": 1, "name": "🐻 ตุ๊กตาหมี2",   "price": 149, "img": os.path.join(BASE_DIR, "assets", "bear.png"),     "stock": 1},
     {"id": 2, "name": "💙 โดเรมอน",    "price": 429, "img": os.path.join(BASE_DIR, "assets", "doraemon.png"),  "stock": 3},
     {"id": 3, "name": "🎀 คิตตี้",     "price": 399, "img": os.path.join(BASE_DIR, "assets", "kitty.png"),     "stock": 4},
     {"id": 4, "name": "🐼 แพนด้า",     "price": 329, "img": os.path.join(BASE_DIR, "assets", "panda.png"),     "stock": 2},
@@ -19,7 +30,7 @@ PRODUCTS = [
     {"id": 8, "name": "🐧 เพนกวิน",     "price": 199, "img": os.path.join(BASE_DIR, "assets", "penguin.png"),   "stock": 6},
     {"id": 9, "name": "🦊 ฟ็อกซี่",    "price": 289, "img": os.path.join(BASE_DIR, "assets", "fox.png"),       "stock": 3},
     {"id": 10,"name": "🦁 ไลอ้อน",     "price": 349, "img": os.path.join(BASE_DIR, "assets", "lion.png"),      "stock": 2},
-    {"id": 10,"name": "🐣 เป็ดน้อย",     "price": 349, "img": os.path.join(BASE_DIR, "assets", "S__9863185.jpg"),      "stock": 2},
+    {"id": 12,"name": "🐣 เป็ดน้อย",     "price": 349, "img": os.path.join(BASE_DIR, "assets", "S__9863185.jpg"),      "stock": 2},
 ]
 
 PASTEL_COLORS = ["#FFD6E0", "#D6F0FF", "#FFF3B0", "#E0FFD6", "#F5D6FF"]
